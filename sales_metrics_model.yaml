@@ -3,8 +3,8 @@ description: Sales metrics and analytics model
 tables:
   - name: SALES_METRICS
     base_table:
-      database: SALES_INTELLIGENCE
-      schema: DATA
+      database: SNOW_HOL
+      schema: [!!!!! INSERT YOUR SCHEMA HERE !!!!!!]
       table: SALES_METRICS
     dimensions:
       - name: DEAL_ID
